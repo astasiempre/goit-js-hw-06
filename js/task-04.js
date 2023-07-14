@@ -8,10 +8,12 @@ let currentValue = 0;
 decBtn.addEventListener("click", () => {
   currentValue -= 1;
   counterValue.textContent = currentValue;
+
 });
 
 incBtn.addEventListener("click", () => {
   currentValue += 1;
   counterValue.textContent = currentValue;
+
 });
 
